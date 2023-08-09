@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9f7d1bb021.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Quick Bites Summaries</title>
+  </head>
+
+  <body>
+    <!-- Header containing navbar  -->
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-lg bg-light p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Quick Bites Summaries</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-2 active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="posts.html">Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main displaying card forst post -->
+
+    <div class="card mb-3 mx-auto main-card">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <a href="posts.html#post-witcher">
+            <img
+              src="images/witcher2.jpg"
+              class="img-fluid rounded-start object-fit-fill card-image"
+              alt="Card title"
+            />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <div class="card-body">
+            <a href="posts.html#post-witcher">
+              <h2 class="card-title justify-content-center text-align-center">
+                The Witcher
+              </h2>
+            </a>
+            <a href="posts.html#post-witcher">
+              <p class="card-text">
+                A captivating and intricate fantasy book series, The Witcher,
+                penned by author Andrzej Sapkowski, weaves a tapestry of
+                monster-slaying, political intrigue, and moral ambiguity. Set in
+                a meticulously crafted medieval-inspired world, the series
+                follows the journey of Geralt of Rivia, a mutant monster hunter
+                known as a Witcher.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 post smal format taking the width of the screen  -->
+    <div class="container small-card-container">
+      <div class="row">
+        <!-- First card left -->
+
+        <div class="col-md small-card small-card-left">
+          <div class="flex-row">
+            <a href="posts.html#post-atomic">
+              <img
+                src="images/atomic1.jpeg"
+                class="img-fluid object-fit-fill card-image"
+                alt="Card title"
+              />
+            </a>
+          </div>
+          <div class="flex-row d-flex justify-content-center">
+            <a href="posts.html#post-atomic">
+              <h2>Atomic Habits</h2>
+            </a>
+          </div>
+          <div class="flex-row justify-content-center">
+            <p class="p-small-cards">
+              "Atomic Habits" by James Clear is a self-help book that explores
+              the science of habit formation and provides practical strategies
+              to build and sustain positive habits while breaking free from
+              negative ones.
+            </p>
+          </div>
+        </div>
+
+        <!-- Second card middle  -->
+
+        <div class="col-md small-card">
+          <div class="flex-row">
+            <a href="posts.html#post-hubberlab">
+              <img
+                src="images/Huberman-Lab-Podcast-Intro-1920x1080-1.jpeg"
+                class="img-fluid object-fit-fill card-image"
+                alt="Card title"
+              />
+            </a>
+          </div>
+          <div class="flex-row justify-content-center">
+            <a href="posts.html#post-hubberlab">
+              <h2>Huberman lab</h2>
+            </a>
+          </div>
+          <div class="flex-row justify-content-center">
+            <p class="p-small-cards">
+              How to Enhance Performance & Learning by Applying a Growth Mindset
+              | Huberman Lab Podcast
+            </p>
+          </div>
+        </div>
+
+        <!-- Third card right -->
+
+        <div class="col-md small-card small-card-right">
+          <div class="flex-row">
+            <a href="posts.html#post-bourguignon">
+              <img
+                src="images/pohs-beef-bourguinon-1.jpg"
+                class="img-fluid object-fit-fill card-image"
+                alt="Card title"
+              />
+            </a>
+          </div>
+
+          <div class="flex-rowjustify-content-center">
+            <a href="posts.html#post-bourguignon">
+              <h2>Beef Bourguignon</h2>
+            </a>
+          </div>
+          <div class="flex-row justify-content-center">
+            <p class="p-small-cards">
+              Beef Bourguignon is a rich and hearty French stew that combines
+              tender beef, aromatic vegetables, and red wine for a flavorful and
+              comforting dish.
+            </p>
+          </div>
+        </div>
+
+        <!-- Call to action / register to newletter  -->
+
+        <!-- footer  -->
+      </div>
+    </div>
+
+    <!-- Call to action -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center py-5">
+          <h2 class="fw-bold">Got an idea for a new post?</h2>
+          <p class="lead">
+            We'd love to hear from you! Share your idea with us and see it
+            featured on our Blog.
+          </p>
+          <a
+            id="idea-button"
+            href="https://www.facebook.com/"
+            class="btn btn-primary btn-lg"
+            >Post Your Idea on Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="bottom-icons-div">
+      <a href="https://www.facebook.com/">
+        <i id="fb-icon" class="fa-brands fa-facebook fa-2xl icons"></i>
+      </a>
+      <a href="https://www.instagram.com/">
+        <i id="insta-icon" class="fa-brands fa-instagram fa-2xl icons"></i>
+      </a>
+      <a href="https://twitter.com/">
+        <i id="twitter-icon" class="fa-brands fa-twitter fa-2xl icons"></i>
+      </a>
+    </div>
+
+    <!-- Footer  -->
+    <footer class="mt-5 text-center">
+      <p id="footer">&copy; 2023 Quick Bites | Created by Vatthana</p>
+    </footer>
+
+    <!-- javascript files for bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
